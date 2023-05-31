@@ -10,6 +10,12 @@
 **Dataset:** airbnb_ny.csv (included in repository; obtained from Springboard)
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, plotly, and textwrap
 
+**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle  
+**For Web Framework Requirements:**  ```pip install -r requirements.txt```  
+**Scraper Github:** https://github.com/arapfaik/scraping-glassdoor-selenium  
+**Scraper Article:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905  
+**Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+
 ## Data Cleaning/Exploratory Data Analysis
 To enhance the code's overall readability and applicability to our models later, I performed the following:
 *	Counted the # of listings in each borough and compared the amounts in a bar plot and the percentages in a pie graph
