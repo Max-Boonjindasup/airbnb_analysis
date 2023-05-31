@@ -17,9 +17,8 @@ To enhance the code's overall readability and applicability to our models later,
 *	Investigated for the top 3 highest revenue neighbourhoods in Manhattan, Brooklyn, & Queens
 *	Made a graph that shows the distribution of room types in Manhattan, Brooklyn, & Queens. Then, identified the top performing room type in the top 3 neighbourhoods of Manhattan, Brooklyn, & Queens.
 
-![]()
-![]()
-![]()
+![](https://github.com/Max-Boonjindasup/airbnb_analysis/blob/main/pie_listings_by_borough.png)
+![](https://github.com/Max-Boonjindasup/airbnb_analysis/blob/main/highest_revenue_room_type.png)
 
 ## Model Building
 
@@ -47,3 +46,6 @@ The Logistic Regression model far outperformed the other approaches on the test 
 *	**Logistic**: RMSE = 0.224 (ACC = 0.986)
 *	**Decision Tree**: RMSE = 0.822
 *	**Random Forest**: RMSE = 0.822
+
+![](https://github.com/Max-Boonjindasup/airbnb_analysis/blob/main/confusion_matrix_airbnb_attributes.png)
+![](https://github.com/Max-Boonjindasup/airbnb_analysis/blob/main/logistic_reg_score.png)
