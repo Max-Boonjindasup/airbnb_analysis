@@ -34,16 +34,16 @@ I trained 5 different models and evaluated them using an array of metrics: Mean 
 
 Models:
 *	**Linear Regression** – Baseline model; iterated on different predictor variables (ie number_of_reviews, latitude, etc.)
-*	**Polynomial Regression** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
-*	**Multinomial Logistic Regression** – Again, with the sparsity associated with the data, I thought that this would be a good fit. 
-*	**Decision Tree Regression** – Again, with the sparsity associated with the data, I thought that this would be a good fit. 
-*	**Random Forest Regression** – Again, with the sparsity associated with the data, I thought that this would be a good fit. 
+*	**Polynomial Regression** – Having 6 attributes, I wanted a model to use all my attributes when predicting price
+*	**Multinomial Logistic Regression** – In this case, I flipped the question and made a classification model where we predict borough from price.
+*	**Decision Tree Regression** – Testing both questions (borough predicts price vs price predicts borough) with another model
+*	**Random Forest Regression** – Again, testing both questions (borough predicts price vs price predicts borough) with another model
 
 ## Model performance
-Most models were trained to predict pricing based on a variety of attributes, but changing to predicting borough (Queens, Brooklyn, Staten Island, Manhattan, and Bronx) based off price produced excellent performance.
+Most models were trained to predict pricing based on a variety of attributes, but changing to predicting borough (Queens, Brooklyn, Staten Island, Manhattan, and Bronx) based off price produced excellent scores.
 The Logistic Regression model far outperformed the other approaches on the test sets.
-*	**Linear** : MAE = 11.22
-*	**Polynomial**: MAE = 18.86
-*	**Logistic**: MAE = 19.67
-*	**Decision Tree**: MAE = 19.67
-*	**Random Forest**: MAE = 19.67
+*	**Linear** : RMSE = 0.825
+*	**Polynomial**: RMSE = 0.773
+*	**Logistic**: RMSE = 0.224 (ACC = 0.986)
+*	**Decision Tree**: RMSE = 0.822
+*	**Random Forest**: RMSE = 0.822
