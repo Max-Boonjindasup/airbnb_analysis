@@ -8,7 +8,6 @@
 ## Code and Resources Used 
 **Python Version:** Python 3.9.13  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, plotly, and textwrap
-
 **Dataset:** airbnb_ny.csv (included in repository; obtained from Springboard)
 
 ## Data Cleaning/Exploratory Data Analysis
