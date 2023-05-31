@@ -7,6 +7,7 @@
 
 ## Libraries and Resources Used
 **Python Version:** Python 3.9.13
+**Dataset:** airbnb_ny.csv (included in repository; obtained from Springboard)
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, plotly, and textwrap
 
 ## Data Cleaning/Exploratory Data Analysis
