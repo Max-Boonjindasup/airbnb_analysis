@@ -5,10 +5,10 @@
 * Employed 5 different regression models and achieved a 99% accuracy in predicting geographic location based on pricing information, enabling actionable insights into targeting new clients and optimizing market strategies.
 * Created an effective model that provides actionable insights into targeting new clients and optimizing market strategies.
 
-## Code and Resources Used 
+## Code and Resources Used
+**Dataset:** airbnb_ny.csv (included in repository; obtained from Springboard)
 **Python Version:** Python 3.9.13  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, plotly, and textwrap
-**Dataset:** airbnb_ny.csv (included in repository; obtained from Springboard)
 
 ## Data Cleaning/Exploratory Data Analysis
 To enhance the code's overall readability and applicability to our models later, I performed the following:
