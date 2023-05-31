@@ -34,7 +34,7 @@ I trained 5 different models and evaluated them using an array of metrics: Mean 
 Models:
 *	**Linear Regression** – Baseline model; iterated on different predictor variables (ie number_of_reviews, latitude, etc.)
 *	**Polynomial Regression** – Having 6 attributes, I wanted a model to use all my attributes when predicting price
-*	**Multinomial Logistic Regression** – In this case, I flipped the question and made a classification model where we predict borough from price.
+*	**Multinomial Logistic Regression** – I flipped the question and made a classification model instead where we predict borough from price.
 *	**Decision Tree Regression** – Testing both questions (borough predicts price vs price predicts borough) with another model
 *	**Random Forest Regression** – Again, testing both questions (borough predicts price vs price predicts borough) with another model
 
