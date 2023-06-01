@@ -40,7 +40,7 @@ Models:
 ## Model performance
 Most models were trained to predict pricing based on a variety of attributes, but changing to predicting borough (Queens, Brooklyn, Staten Island, Manhattan, and Bronx) based off price produced excellent scores.
 The Logistic Regression model far outperformed the other approaches on the test sets.
-*	**Linear** : RMSE = 0.825
+*	**Linear**: RMSE = 0.825
 *	**Polynomial**: RMSE = 0.773
 *	**Logistic**: RMSE = 0.224 (ACC = 0.986)
 *	**Decision Tree**: RMSE = 0.822
@@ -49,7 +49,7 @@ The Logistic Regression model far outperformed the other approaches on the test 
 ![](https://github.com/Max-Boonjindasup/airbnb_analysis/blob/main/confusion_matrix_airbnb_attributes.png)
 ![](https://github.com/Max-Boonjindasup/airbnb_analysis/blob/main/logistic_reg_score.png)
 
-# Bonus Section
+## Bonus Section
 I performed PCA for the purpose of feature extraction by identifying the most influential features. Below are the principal components and the top 3 features (loadings) for PC1, the principal component that explains the most variance in the data. I also graphed the biplot to recast the original data onto the new PCA axes and included the top 3 PC feature vectors for reference (see notebook for 3D visualization in Plotly).
 
 * neighbourhood_group_Manhattan (Borough - Manhattan): 0.504190
