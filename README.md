@@ -49,3 +49,12 @@ The Logistic Regression model far outperformed the other approaches on the test 
 
 ![](https://github.com/Max-Boonjindasup/airbnb_analysis/blob/main/confusion_matrix_airbnb_attributes.png)
 ![](https://github.com/Max-Boonjindasup/airbnb_analysis/blob/main/logistic_reg_score.png)
+
+# Bonus Section
+I performed PCA for the purpose of feature extraction by identifying the most influential features. Below are the principal components and the top 3 features (loadings) for PC1, the principal component that explains the most variance in the data.
+
+* neighbourhood_group_Manhattan (Borough - Manhattan): 0.504190
+* room_type_Entire home/apt (Room Type - Entire home/apt): 0.371368
+* latitude (Latitude coordinate): 0.307925
+
+![](https://github.com/Max-Boonjindasup/airbnb_analysis/blob/main/airbnb_pca.png)
