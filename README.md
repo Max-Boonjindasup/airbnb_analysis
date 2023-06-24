@@ -53,7 +53,6 @@ The Logistic Regression model far outperformed the other approaches on the test 
 | 2         | 0.99      | 1.00   | 1.00     | 6451    |
 | 3         | 0.98      | 0.94   | 0.95     | 1757    |
 | 4         | 1.00      | 0.99   | 1.00     | 118     |
-|-----------|-----------|--------|----------|---------|
 | accuracy  |           |        | 0.99     | 14669   |
 | macro avg | 0.99      | 0.97   | 0.98     | 14669   |
 | weighted avg | 0.99   | 0.99   | 0.99     | 14669   |
