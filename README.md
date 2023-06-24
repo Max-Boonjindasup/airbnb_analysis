@@ -46,8 +46,21 @@ The Logistic Regression model far outperformed the other approaches on the test 
 *	**Decision Tree**: RMSE = 0.822
 *	**Random Forest**: RMSE = 0.822
 
-![](https://github.com/Max-Boonjindasup/airbnb_analysis/blob/main/confusion_matrix_airbnb_attributes.png)
-![](https://github.com/Max-Boonjindasup/airbnb_analysis/blob/main/logistic_reg_score.png)
+|           | precision | recall | f1-score | support |
+|-----------|-----------|--------|----------|---------|
+| 0         | 0.97      | 0.91   | 0.94     | 335     |
+| 1         | 0.98      | 0.99   | 0.99     | 6008    |
+| 2         | 0.99      | 1.00   | 1.00     | 6451    |
+| 3         | 0.98      | 0.94   | 0.95     | 1757    |
+| 4         | 1.00      | 0.99   | 1.00     | 118     |
+|-----------|-----------|--------|----------|---------|
+| accuracy  |           |        | 0.99     | 14669   |
+| macro avg | 0.99      | 0.97   | 0.98     | 14669   |
+| weighted avg | 0.99   | 0.99   | 0.99     | 14669   |
+
+|                       | ACC   | MSE  | RMSE  | MAE   | R2    |
+|-----------------------|-------|------|-------|-------|-------|
+| Logistic Regression  | 0.986 | 0.05 | 0.224 | 0.026 | 0.909 |
 
 ## Bonus Section
 I performed PCA for the purpose of feature extraction by identifying the most influential features. Below are the principal components and the top 3 features (loadings) for PC1, the principal component that explains the most variance in the data. I also graphed the biplot to recast the original data onto the new PCA axes and included the top 3 PC feature vectors for reference (see notebook for 3D visualization in Plotly).
